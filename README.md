@@ -2,7 +2,7 @@
 
 Приложение для перевода денег с карты на карту. Бэкенд — Spring Boot, фронтенд — React.
 
-⚠️ Фронтенд не включён в этот репозиторий. Его код доступен по ссылке: [https://github.com/art4000xxx/card-transfer-frontend](https://github.com/art4000xxx/card-transfer-frontend).
+⚠️ Фронтенд не включён в этот репозиторий. 
 
 ---
 
