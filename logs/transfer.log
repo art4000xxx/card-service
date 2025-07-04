@@ -1,0 +1,362 @@
+2025-06-12 13:29:19 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 18000 (C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service)
+2025-06-12 13:29:19 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 13:29:19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 13:29:19 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 13:29:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 13:29:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 13:29:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 13:29:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 13:29:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 849 ms
+2025-06-12 13:29:20 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 10d26607-67e1-44f2-8f53-e51103a3d605
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-12 13:29:20 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-12 13:29:20 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 13:29:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 13:29:20 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.668 seconds (process running for 1.994)
+2025-06-12 13:29:25 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 13:29:25 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 13:29:25 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 13:29:25 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Transfer initiated: 100.0 from 1234567890123456 to 9876543210987654, commission: 1.0
+2025-06-12 13:29:30 [http-nio-8080-exec-6] INFO  c.e.c.service.TransferService - Transfer initiated: 100.0 from 1234567890123456 to 9876543210987654, commission: 1.0
+2025-06-12 13:31:07 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 10372 (C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service)
+2025-06-12 13:31:07 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 13:31:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 13:31:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 13:31:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 13:31:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 13:31:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 13:31:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 13:31:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 924 ms
+2025-06-12 13:31:08 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f4388bed-c284-4887-ba3d-7b0ddd81d83f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-12 13:31:08 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-12 13:31:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 13:31:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 13:31:08 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.785 seconds (process running for 2.129)
+2025-06-12 13:32:09 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 13:32:09 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 13:32:09 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-06-12 13:32:09 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Transfer initiated: 100.0 from 1234567890123456 to 9876543210987654, commission: 1.0
+2025-06-12 13:32:14 [http-nio-8080-exec-9] INFO  c.e.c.service.TransferService - Transfer initiated: 100.0 from 1234567890123456 to 9876543210987654, commission: 1.0
+2025-06-12 13:33:56 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 17532 (C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service)
+2025-06-12 13:33:56 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 13:33:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 13:33:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 13:33:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 13:33:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 13:33:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 13:33:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 13:33:57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 926 ms
+2025-06-12 13:33:57 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 87c3145a-7c0a-49f0-a7d9-3cf360ef1a2b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-12 13:33:57 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-12 13:33:57 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 13:33:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 13:33:57 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.796 seconds (process running for 2.142)
+2025-06-12 13:34:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 13:34:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 13:34:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-06-12 13:34:01 [http-nio-8080-exec-5] INFO  c.e.c.service.TransferService - Transfer initiated: 100.0 from 1234567890123456 to 9876543210987654, commission: 1.0
+2025-06-12 13:34:01 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 13:37:00 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 1536 (C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service)
+2025-06-12 13:37:00 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 13:37:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 13:37:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 13:37:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 13:37:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 13:37:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 13:37:00 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 13:37:00 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 855 ms
+2025-06-12 13:37:01 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6d3a3a53-a539-4016-9875-34558c0ac350
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-12 13:37:01 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-12 13:37:01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 13:37:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 13:37:01 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.672 seconds (process running for 2.001)
+2025-06-12 13:37:43 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 13:37:43 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 13:37:43 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-06-12 13:37:43 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Transfer initiated: 100.0 from 1234567890123456 to 9876543210987654, commission: 1.0, code: 5365
+2025-06-12 13:37:43 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 13:37:52 [http-nio-8080-exec-6] INFO  c.e.c.service.TransferService - Transfer initiated: 100.0 from 1234567890123456 to 9876543210987654, commission: 1.0, code: 4873
+2025-06-12 13:37:52 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 13:41:18 [http-nio-8080-exec-10] INFO  c.e.c.service.TransferService - Transfer initiated: 100.0 from 1234567890123456 to 9876543210987654, commission: 1.0, code: 9043
+2025-06-12 13:41:18 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 13:41:49 [http-nio-8080-exec-8] INFO  c.e.c.service.TransferService - Transfer initiated: 100.0 from 1234567890123456 to 9876543210987654, commission: 1.0, code: 6241
+2025-06-12 13:41:49 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 14:33:32 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 8988 (C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service)
+2025-06-12 14:33:32 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 14:33:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 14:33:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 14:33:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 14:33:33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 14:33:33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 14:33:33 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 14:33:33 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 888 ms
+2025-06-12 14:33:33 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ec90f445-55e4-4c2e-8529-7d3a27332da5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-06-12 14:33:33 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-06-12 14:33:34 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 14:33:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 14:33:34 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.709 seconds (process running for 2.039)
+2025-06-12 14:36:16 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 14:36:16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 14:36:16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 14:36:17 [http-nio-8080-exec-5] INFO  c.e.c.service.TransferService - Transfer initiated: 100.00 from 1234567890123456 to 9876543210987654, commission: 1.0000, code: 7608
+2025-06-12 14:36:17 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 14:36:33 [http-nio-8080-exec-6] INFO  c.e.c.service.TransferService - Transfer initiated: 100.00 from 1234567890123456 to 9876543210987654, commission: 1.0000, code: 7546
+2025-06-12 14:36:33 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 15:16:02 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 6500 (C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service)
+2025-06-12 15:16:02 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 15:16:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 15:16:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 15:16:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 15:16:03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 15:16:03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 15:16:03 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 15:16:03 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 849 ms
+2025-06-12 15:16:03 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 15:16:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 15:16:03 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.63 seconds (process running for 2.051)
+2025-06-12 15:17:14 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 15:17:14 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 15:17:14 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 15:21:31 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 20284 (C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service)
+2025-06-12 15:21:31 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 15:21:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 15:21:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 15:21:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 15:21:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 15:21:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 15:21:32 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 15:21:32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 801 ms
+2025-06-12 15:21:32 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 15:21:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 15:21:32 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.503 seconds (process running for 1.823)
+2025-06-12 15:22:39 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 15:22:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 15:22:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 15:22:39 [http-nio-8080-exec-4] INFO  c.e.c.service.TransferService - Transfer initiated: 100.00 from 1234567890123456 to 9876543210987654, commission: 1.0000, code: 4525
+2025-06-12 15:22:39 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 15:22:57 [http-nio-8080-exec-5] INFO  c.e.c.service.TransferService - Transfer initiated: 100.00 from 1234567890123456 to 9876543210987654, commission: 1.0000, code: 9642
+2025-06-12 15:22:57 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 15:25:23 [http-nio-8080-exec-6] INFO  c.e.c.service.TransferService - Transfer initiated: 100.00 from 1234567890123456 to 9876543210987654, commission: 1.0000, code: 8038
+2025-06-12 15:25:23 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 15:27:04 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Transfer initiated: 100.00 from 1234567890123456 to 9876543210987654, commission: 1.0000, code: 4409
+2025-06-12 15:27:04 [http-nio-8080-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 15:38:06 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 12188 (C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service)
+2025-06-12 15:38:06 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 15:38:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 15:38:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 15:38:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 15:38:07 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 15:38:07 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 15:38:07 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 15:38:07 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 826 ms
+2025-06-12 15:38:07 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 15:38:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 15:38:07 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.505 seconds (process running for 1.815)
+2025-06-12 15:39:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 15:39:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 15:39:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 15:39:00 [http-nio-8080-exec-1] INFO  c.e.c.service.TransferService - Transfer initiated: 100.00 from 1234567890123456 to 9876543210987654, commission: 1.0000, code: 4163
+2025-06-12 15:39:00 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 15:41:36 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 15184 (C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service)
+2025-06-12 15:41:36 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 15:41:37 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 15:41:37 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 15:41:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 15:41:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 15:41:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 15:41:37 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 15:41:37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 862 ms
+2025-06-12 15:41:38 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 15:41:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 15:41:38 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.576 seconds (process running for 1.901)
+2025-06-12 15:42:49 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 15:42:49 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 15:42:49 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 15:42:49 [http-nio-8080-exec-1] INFO  c.e.c.service.TransferService - Transfer initiated: 100.00 from 1234567890123456 to 9876543210987654, commission: 1.0000, code: 1234
+2025-06-12 15:42:49 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 15:44:51 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 17472 (C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service)
+2025-06-12 15:44:51 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 15:44:51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 15:44:51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 15:44:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 15:44:52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 15:44:52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 15:44:52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 15:44:52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 853 ms
+2025-06-12 15:44:52 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 15:44:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 15:44:52 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.572 seconds (process running for 1.911)
+2025-06-12 15:45:33 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 15:45:33 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 15:45:33 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 15:45:33 [http-nio-8080-exec-1] INFO  c.e.c.service.TransferService - Transfer initiated: 100.00 from 1234567890123456 to 9876543210987654, commission: 1.0000, code: 1234
+2025-06-12 15:45:33 [http-nio-8080-exec-3] INFO  c.e.c.service.TransferService - Transfer completed: 100.0 from 1234567890123456 to 9876543210987654, commission: 1.0
+2025-06-12 16:14:10 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 3184 (C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\backend\card-service)
+2025-06-12 16:14:10 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 16:14:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 16:14:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 16:14:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 16:14:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 16:14:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 16:14:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 16:14:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 809 ms
+2025-06-12 16:14:11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 16:14:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 16:14:11 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.479 seconds (process running for 1.796)
+2025-06-12 16:15:03 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 16:15:03 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 16:15:03 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 16:15:04 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Date: 2025-06-12 16:15:04, Time: 2025-06-12 16:15:04, From: 1234567890123456, To: 9876543210987654, Amount: 1000.00, Commission: 10.00, Status: PENDING
+2025-06-12 16:15:04 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Transfer response: TransferResponse(operationId=a613091e-a034-4e70-8b9d-4c6d2dda33f8, confirmationCode=1234)
+2025-06-12 16:15:04 [http-nio-8080-exec-4] INFO  c.e.c.service.TransferService - Date: 2025-06-12 16:15:04, Time: 2025-06-12 16:15:04, From: 1234567890123456, To: 9876543210987654, Amount: 1000.00, Commission: 10.00, Status: COMPLETED
+2025-06-12 16:15:04 [http-nio-8080-exec-4] INFO  c.e.c.service.TransferService - Confirm response: ConfirmResponse(operationId=a613091e-a034-4e70-8b9d-4c6d2dda33f8)
+2025-06-12 12:46:47 [main] INFO  com.example.cardservice.Application - Starting Application v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2025-06-12 12:46:47 [main] INFO  com.example.cardservice.Application - The following 1 profile is active: "prod"
+2025-06-12 12:46:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 12:46:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 12:46:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 12:46:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 12:46:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1221 ms
+2025-06-12 12:46:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 12:46:49 [main] INFO  com.example.cardservice.Application - Started Application in 2.601 seconds (process running for 3.465)
+2025-06-12 12:47:15 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 12:47:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 12:47:15 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-06-12 18:57:35 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 18576 (C:\Users\art40\IdeaProjects\card-transfer-service\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\card-transfer-service\backend\card-service)
+2025-06-12 18:57:35 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 18:57:35 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 18:57:35 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 18:57:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 18:57:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 18:57:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 18:57:37 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 18:57:37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1282 ms
+2025-06-12 18:57:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 18:57:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 18:57:37 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 2.326 seconds (process running for 2.766)
+2025-06-12 19:02:32 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 19:02:32 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 19:02:32 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 19:02:33 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Date: 2025-06-12 19:02:33, Time: 2025-06-12 19:02:33, From: 1234567890123456, To: 9876543210987654, Amount: 100.00, Commission: 1.00, Status: PENDING
+2025-06-12 19:02:33 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Transfer response: TransferResponse(operationId=e1151611-297b-463a-b7a9-3be932c33546, confirmationCode=1234)
+2025-06-12 19:02:33 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Invalid confirmation code]
+2025-06-12 19:13:42 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 19676 (C:\Users\art40\IdeaProjects\card-transfer-service\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\card-transfer-service\backend\card-service)
+2025-06-12 19:13:42 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 19:13:42 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 19:13:42 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 19:13:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 19:13:43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 19:13:43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 19:13:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 19:13:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 856 ms
+2025-06-12 19:13:43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 19:13:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 19:13:43 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.605 seconds (process running for 1.97)
+2025-06-12 19:13:52 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 19:13:52 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 19:13:52 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 19:13:53 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Transfer initiated: 100.00 from 1234567890123456 to 9876543210987654, commission: 1.00, code: 1234
+2025-06-12 19:13:53 [http-nio-8080-exec-1] INFO  c.e.c.service.TransferService - Transfer completed: 100.00 from 1234567890123456 to 9876543210987654, commission: 1.00
+2025-06-12 19:20:33 [restartedMain] INFO  com.example.cardservice.Application - Starting Application using Java 21.0.2 with PID 13852 (C:\Users\art40\IdeaProjects\card-transfer-service\card-transfer-service\backend\card-service\build\classes\java\main started by art40 in C:\Users\art40\IdeaProjects\card-transfer-service\card-transfer-service\backend\card-service)
+2025-06-12 19:20:33 [restartedMain] INFO  com.example.cardservice.Application - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 19:20:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 19:20:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 19:20:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 19:20:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 19:20:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 19:20:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 19:20:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 940 ms
+2025-06-12 19:20:34 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-12 19:20:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 19:20:34 [restartedMain] INFO  com.example.cardservice.Application - Started Application in 1.67 seconds (process running for 2.064)
+2025-06-12 19:22:32 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 19:22:32 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 19:22:32 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 19:22:32 [http-nio-8080-exec-1] INFO  c.e.c.service.TransferService - Date: 2025-06-12 19:22:32, Time: 2025-06-12 19:22:32, From: 1234567890123456, To: 9876543210987654, Amount: 1000.00, Commission: 10.00, Status: PENDING
+2025-06-12 19:22:32 [http-nio-8080-exec-1] INFO  c.e.c.service.TransferService - Transfer response: TransferResponse(operationId=c644597b-f64f-4b86-ba6c-67c652db4eaf, confirmationCode=1234)
+2025-06-12 19:22:32 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Date: 2025-06-12 19:22:32, Time: 2025-06-12 19:22:32, From: 1234567890123456, To: 9876543210987654, Amount: 1000.00, Commission: 10.00, Status: COMPLETED
+2025-06-12 19:22:32 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Confirm response: ConfirmResponse(operationId=c644597b-f64f-4b86-ba6c-67c652db4eaf)
+2025-06-12 14:19:08 [main] INFO  com.example.cardservice.Application - Starting Application v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2025-06-12 14:19:08 [main] INFO  com.example.cardservice.Application - The following 1 profile is active: "prod"
+2025-06-12 14:19:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 14:19:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 14:19:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 14:19:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 14:19:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1272 ms
+2025-06-12 14:19:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 14:19:09 [main] INFO  com.example.cardservice.Application - Started Application in 2.561 seconds (process running for 3.399)
+2025-06-12 14:20:39 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 14:20:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 14:20:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-06-12 14:30:04 [main] INFO  com.example.cardservice.Application - Starting Application v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2025-06-12 14:30:04 [main] INFO  com.example.cardservice.Application - The following 1 profile is active: "prod"
+2025-06-12 14:30:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 14:30:05 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 14:30:05 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 14:30:05 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 14:30:05 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1324 ms
+2025-06-12 14:30:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 14:30:06 [main] INFO  com.example.cardservice.Application - Started Application in 2.671 seconds (process running for 3.666)
+2025-06-12 14:32:15 [main] INFO  com.example.cardservice.Application - Starting Application v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2025-06-12 14:32:15 [main] INFO  com.example.cardservice.Application - The following 1 profile is active: "prod"
+2025-06-12 14:32:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 14:32:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 14:32:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 14:32:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 14:32:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1172 ms
+2025-06-12 14:32:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 14:32:17 [main] INFO  com.example.cardservice.Application - Started Application in 2.483 seconds (process running for 3.175)
+2025-06-12 14:40:09 [main] INFO  com.example.cardservice.Application - Starting Application v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2025-06-12 14:40:09 [main] INFO  com.example.cardservice.Application - The following 1 profile is active: "prod"
+2025-06-12 14:40:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-12 14:40:10 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-12 14:40:10 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-06-12 14:40:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-12 14:40:10 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1128 ms
+2025-06-12 14:40:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-12 14:40:11 [main] INFO  com.example.cardservice.Application - Started Application in 2.505 seconds (process running for 3.127)
+2025-06-12 14:40:47 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 14:40:47 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-12 14:40:47 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-12 14:40:47 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Date: 2025-06-12 14:40:47, Time: 2025-06-12 14:40:47, From: 1234567890123456, To: 9876543210987654, Amount: 1000.00, Commission: 10.00, Status: PENDING
+2025-06-12 14:40:47 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Transfer response: TransferResponse(operationId=5666fd14-9cca-49e1-9aa2-13a52cdadadc, confirmationCode=1234)
+2025-06-12 14:40:47 [http-nio-8080-exec-4] INFO  c.e.c.service.TransferService - Date: 2025-06-12 14:40:47, Time: 2025-06-12 14:40:47, From: 1234567890123456, To: 9876543210987654, Amount: 1000.00, Commission: 10.00, Status: COMPLETED
+2025-06-12 14:40:47 [http-nio-8080-exec-4] INFO  c.e.c.service.TransferService - Confirm response: ConfirmResponse(operationId=5666fd14-9cca-49e1-9aa2-13a52cdadadc)
+2025-07-04 05:32:37 [main] INFO  com.example.cardservice.Application - Starting Application v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2025-07-04 05:32:37 [main] INFO  com.example.cardservice.Application - The following 1 profile is active: "prod"
+2025-07-04 05:32:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-04 05:32:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-04 05:32:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-07-04 05:32:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-04 05:32:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1230 ms
+2025-07-04 05:32:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-04 05:32:39 [main] INFO  com.example.cardservice.Application - Started Application in 2.949 seconds (process running for 4.269)
+2025-07-04 05:33:24 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-04 05:33:24 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-04 05:33:24 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-07-04 05:33:24 [http-nio-8080-exec-2] INFO  c.e.c.service.TransferService - Date: 2025-07-04 05:33:24, Time: 2025-07-04 05:33:24, From: 1234567890123456, To: 9876543210987654, Amount: 100.00, Commission: 1.00, Status: PENDING
+2025-07-04 05:33:24 [http-nio-8080-exec-4] INFO  c.e.c.service.TransferService - Date: 2025-07-04 05:33:24, Time: 2025-07-04 05:33:24, From: 1234567890123456, To: 9876543210987654, Amount: 100.00, Commission: 1.00, Status: COMPLETED
