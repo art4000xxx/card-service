@@ -57,7 +57,7 @@ card-transfer-service/
 ```json
 {
   "operationId": "op-123",
-  "confirmationCode": "1234"
+  "confirmationCode": "0000"
 }
 ```
 
@@ -68,7 +68,7 @@ card-transfer-service/
 ```json
 {
   "operationId": "op-123",
-  "code": "1234"
+  "code": "0000"
 }
 ```
 
